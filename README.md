@@ -6,13 +6,11 @@ https://docs.docker.com/install/linux/docker-ce/centos/#install-using-the-reposi
 https://docs.docker.com/install/linux/linux-postinstall/
 yum install git
 
-
 ELK Stack setup
 
 https://logz.io/blog/docker-logging/
 https://github.com/deviantony/docker-elk https://github.com/NaturalHistoryMuseum/scratchpads2/wiki/Install-Docker-and-Docker-Compose-(Centos-7)
 https://github.com/docker/compose/releases
-
 
 Filebeat Log Shipper
 
@@ -31,5 +29,3 @@ https://github.com/emantas/uav-sitl-docker
 Missions Scripts
 
 https://github.com/emantas/uav-dronekit-scripts
-
-
