@@ -1,35 +1,33 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, ModalController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-import { DronemonService } from '../../services/dronemon-service';
-import { AppSettings } from '../../services/app-settings'
+import { IService } from '../../services/IService';
 
 @IonicPage()
 @Component({
   selector: 'page-dronemon',
   templateUrl: 'dronemon.html',
-  providers: [DronemonService]
 })
 export class DronemonPage {
 
-  data:any = {};
+  page: any;
+  service: IService;
+  params: any = {};
 
-  constructor(public navCtrl: NavController, public service:DronemonService, public modalCtrl: ModalController) {
-    service.load().subscribe(snapshot => {
-      this.data = snapshot;
-    });
-
-     if (AppSettings.SHOW_START_WIZARD) {
-      this.presentProfileModal();
-    }
+  constructor(public navCtrl: NavController, navParams: NavParams) {
+    // If we navigated to this page, we will have an item available as a nav param
+    this.page = navParams.get('page');
+    this.service = navParams.get('service');
+    
+    if (this.service) {
+      this.params = this.service.prepareParams(this.page, navCtrl);
+      this.params.data = this.service.load(this.page);
+    } else {
+      navCtrl.setRoot("HomePage");
+    }		
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DronemonPage');
-  }
-
-  presentProfileModal() {
-    const profileModal = this.modalCtrl.create("IntroPage");
-    profileModal.present();
   }
 }

@@ -2,35 +2,30 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { IService } from '../../services/IService';
-import { DronemonPage } from '../dronemon';
-import { DronemonService } from '../../services/dronemon-service';
+import { DronemonPage } from '../dronemon/dronemon';
+import { DronemonLoginService } from '../../services/dronemon-login-service';
 
 @IonicPage()
 @Component({
   selector: 'page-dronemon-login',
   templateUrl: 'dronemon-login.html',
-  providers: [DronemonService]
+  providers: [DronemonLoginService]
 })
 export class DronemonLoginPage {
 
-  page: any;
-  service: IService;
-  params: any = {};
+  data:any = {};
 
-  constructor(public navCtrl: NavController, navParams: NavParams) {
-    // If we navigated to this page, we will have an item available as a nav param
-    this.page = navParams.get('page');
-    this.service = navParams.get('service');
-    if (this.service) {
-      this.params = this.service.prepareParams(this.page, navCtrl);
-      this.params.data = this.service.load(this.page);
-    } else {
-      navCtrl.setRoot("DronemonPage");
-    }		
+  constructor(public navCtrl: NavController, navParams: NavParams, service: DronemonLoginService) {
+    let that = this;
+    service.load().subscribe(snapshot => {
+      that.data = snapshot;
+    });
   }
 
   onLoggedIn(token:string) {
     if(token) {
+      let params = this.service.prepareParams(this.page, this.navCtrl);
+      this.params.data = this.service.load(this.page);
 
       this.navCtrl.push('DronemonPage', {
         service: this.service,
