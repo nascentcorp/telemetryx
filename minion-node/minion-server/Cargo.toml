@@ -1,0 +1,11 @@
+[package]
+name = "minion-server"
+version = "0.1.0"
+authors = ["telemetryx.io"]
+edition = "2018"
+
+[dependencies]
+hyper = "0.12.21"
+futures = "0.1.21"
+pretty_env_logger = "0.2.0"
+minion-lib = { path = "../minion-lib" }

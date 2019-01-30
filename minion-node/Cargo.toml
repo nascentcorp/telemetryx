@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "minion-server",
+    "minion-lib",
+]
