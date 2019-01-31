@@ -9,7 +9,7 @@ import { IonicPage } from 'ionic-angular';
 export class LoginLayout1 {
     @Input() data: any;
     @Input() events: any;
-    @Output() loggedIn = new EventEmitter<string>();
+    @Output() onLogin = new EventEmitter<string>();
 
     public usernameLogin: string;
     public passwordLogin: string;
@@ -39,11 +39,10 @@ export class LoginLayout1 {
                 return
             }
             if (this.events[event]) {
-                this.events[event]({
+                this.onLogin.emit(this.events[event]({
                     'username' : this.usernameLogin,
                     'password' : this.passwordLogin
-                });
-                this.loggedIn.emit('foobar');
+                }));
             }
         } else if (event == "onRegister") {
             if (!this.validateRegister()) {

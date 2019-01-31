@@ -3,13 +3,14 @@ import { AppearanceAnimationLayout4Module } from '../../components/list-view/app
 import { IonicPageModule } from 'ionic-angular';
 import { DronemonPage } from './dronemon';
 
+import { TabsLayout2Module } from '../../components/tabs/layout-2/tabs-layout-2.module';
 @NgModule({
   declarations: [
     DronemonPage,
   ],
   imports: [
     IonicPageModule.forChild(DronemonPage),
-    AppearanceAnimationLayout4Module
+    AppearanceAnimationLayout4Module, TabsLayout2Module
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
