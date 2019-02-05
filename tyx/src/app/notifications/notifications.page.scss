@@ -1,0 +1,31 @@
+.fade-in-item {
+  -webkit-animation: fadeIn 800ms;
+  -moz-animation: fadeIn 800ms;
+  -o-animation: fadeIn 800ms;
+  animation: fadeIn 800ms;
+}
+
+ion-grid {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.title {
+  margin: 5px;
+  vertical-align: top;
+  font-weight: bolder;
+}
+
+ion-item p {
+  margin: 5px;
+  padding: 3px;
+}
+
