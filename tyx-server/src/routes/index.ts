@@ -1,5 +1,8 @@
+import * as child from "child_process";
 import * as express from "express";
 import fs from "fs";
+
+// import * as shell from "shelljs";
 
 export const register = ( app: express.Application ) => {
   app.get( "/", ( req, res ) => {
@@ -32,8 +35,22 @@ export const register = ( app: express.Application ) => {
       }
   } );
 
-  app.post( `/api/job`, async ( req: any, res ) => {
+  app.get( `/api/job`, async ( req: any, res ) => {
       try {
+        const docker = child.fork(__dirname + "/../routes/docker.js");
+
+        process.stdout.on("data", (data) => {
+          // tslint:disable-next-line:no-console
+          console.log(data);
+        });
+
+        docker.send("start");
+
+        docker.on("message", (message) => {
+          // tslint:disable-next-line:no-console
+          console.log(message);
+        });
+
         return res.json( { success: true } );
       } catch ( err ) {
         // tslint:disable-next-line:no-console

@@ -7,11 +7,20 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result["default"] = mod;
+    return result;
+};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+const child = __importStar(require("child_process"));
 const fs_1 = __importDefault(require("fs"));
+// import * as shell from "shelljs";
 exports.register = (app) => {
     app.get("/", (req, res) => {
         // render the index template
@@ -39,8 +48,18 @@ exports.register = (app) => {
             res.json({ error: err.message || err });
         }
     }));
-    app.post(`/api/job`, (req, res) => __awaiter(this, void 0, void 0, function* () {
+    app.get(`/api/job`, (req, res) => __awaiter(this, void 0, void 0, function* () {
         try {
+            const docker = child.fork(__dirname + "/../routes/docker.js");
+            process.stdout.on("data", (data) => {
+                // tslint:disable-next-line:no-console
+                console.log(data);
+            });
+            docker.send("start");
+            docker.on("message", (message) => {
+                // tslint:disable-next-line:no-console
+                console.log(message);
+            });
             return res.json({ success: true });
         }
         catch (err) {
