@@ -1,0 +1,1 @@
+{"rustc":11161650738512304635,"features":"[\"unicase\"]","target":17643033177760992062,"profile":13846881912122723292,"path":15261563995095799617,"deps":[["siphasher v0.2.3","siphasher",6590903781946555561],["unicase v1.4.2","unicase",11175597352348759454]],"local":[{"Precalculated":"0.7.24"}],"rustflags":[],"edition":"Edition2015"}

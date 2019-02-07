@@ -1,0 +1,11 @@
+/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/deps/serde_urlencoded-351d8e98df0fc746.rmeta: /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/lib.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/de.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/mod.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/key.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/pair.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/part.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/value.rs
+
+/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/deps/serde_urlencoded-351d8e98df0fc746.d: /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/lib.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/de.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/mod.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/key.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/pair.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/part.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/value.rs
+
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/lib.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/de.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/mod.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/key.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/pair.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/part.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/value.rs:

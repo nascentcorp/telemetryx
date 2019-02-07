@@ -1,36 +1,36 @@
-#![deny(warnings)]
+#![allow(unused_imports, dead_code, non_snake_case)]
+
+#[macro_use] extern crate serde_derive;
+extern crate serde;
+extern crate serde_json;
 extern crate futures;
-extern crate hyper;
-extern crate pretty_env_logger;
+extern crate num_cpus;
+extern crate actix_web;
+extern crate env_logger;
+extern crate dotenv;
+extern crate chrono;
+extern crate bcrypt;
+extern crate http;
+extern crate jsonwebtoken as jwt;
 
-use hyper::service::service_fn;
+use actix_web::{actix::System,server};
 
-use minion-lib::register_routes;
-
-#[allow(unused, deprecated)]
-use std::ascii::AsciiExt;
-
-static URL: &str = "http://127.0.0.1:7878/api";
+mod api;
+mod router;
 
 fn main() {
-    pretty_env_logger::init();
+    ::std::env::set_var("RUST_LOG", "wapp=info");
+    ::std::env::set_var("RUST_BACKTRACE", "1");
+    env_logger::init();
+    let sys = System::new("wapp");
 
-    let addr = "127.0.0.1:7878".parse().unwrap();
+    server::new( move || 
+        vec![
+            router::app().boxed(),
+        ])
+        .bind("localhost:8000").unwrap()
+        .shutdown_timeout(2)
+        .start();
 
-    hyper::rt::run(future::lazy(move || {
-        let new_service = move || {
-            service_fn(move |req| {
-                register_routes(req)
-            })
-        };
-
-        let server = Server::bind(&addr)
-            .serve(new_service)
-            .map_err(|e| eprintln!("server error: {}", e));
-
-        println!("Listening on http://{}", addr);
-
-        server
-    }));
+    sys.run();
 }
-

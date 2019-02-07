@@ -1,0 +1,467 @@
+ANDROID_HOME: /Users/derek/Library/Android/sdk
+ANDROID_SDK_ROOT: /Users/derek/Library/Android/sdk
+Apple_PubSub_Socket_Render: /private/tmp/com.apple.launchd.BXkzwnWZ6n/Render
+CARGO: /Users/derek/.rustup/toolchains/stable-x86_64-apple-darwin/bin/cargo
+CARGO_CFG_DEBUG_ASSERTIONS: 
+CARGO_CFG_PROC_MACRO: 
+CARGO_CFG_TARGET_ARCH: x86_64
+CARGO_CFG_TARGET_ENDIAN: little
+CARGO_CFG_TARGET_ENV: 
+CARGO_CFG_TARGET_FAMILY: unix
+CARGO_CFG_TARGET_FEATURE: fxsr,sse,sse2,sse3,ssse3
+CARGO_CFG_TARGET_OS: macos
+CARGO_CFG_TARGET_POINTER_WIDTH: 64
+CARGO_CFG_UNIX: 
+CARGO_FEATURE_DEFAULT: 1
+CARGO_FEATURE_DEV_URANDOM_FALLBACK: 1
+CARGO_FEATURE_USE_HEAP: 1
+CARGO_HOME: /Users/derek/.cargo
+CARGO_MAKEFLAGS: --jobserver-fds=3,23 -j --jobserver-auth=3,23 -j
+CARGO_MANIFEST_DIR: /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5
+CARGO_MANIFEST_LINKS: ring-asm
+CARGO_PKG_AUTHORS: Brian Smith <brian@briansmith.org>
+CARGO_PKG_DESCRIPTION: Safe, fast, small crypto using Rust.
+CARGO_PKG_HOMEPAGE: 
+CARGO_PKG_NAME: ring
+CARGO_PKG_REPOSITORY: https://github.com/briansmith/ring
+CARGO_PKG_VERSION: 0.13.5
+CARGO_PKG_VERSION_MAJOR: 0
+CARGO_PKG_VERSION_MINOR: 13
+CARGO_PKG_VERSION_PATCH: 5
+CARGO_PKG_VERSION_PRE: 
+CLASSPATH: /usr/local/var/lib
+DEBUG: true
+DYLD_LIBRARY_PATH: /Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/deps:/Users/derek/.rustup/toolchains/stable-x86_64-apple-darwin/lib:/Users/derek/.rustup/toolchains/stable-x86_64-apple-darwin/lib
+GOPATH: /Users/derek/Github/gospace
+HOME: /Users/derek
+HOST: x86_64-apple-darwin
+JAVA_HOME: /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home
+LANG: en_US.UTF-8
+LOGNAME: derek
+NUM_JOBS: 8
+NVM_CD_FLAGS: 
+NVM_DIR: /Users/derek/.nvm
+NVM_RC_VERSION: 
+OLDPWD: /Users/derek/Github/nascentcorp/telemetryx/minion-node
+OPT_LEVEL: 0
+OUT_DIR: /Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out
+PATH: /Users/derek/.cargo/bin:/Users/derek/.cargo/bin:/Users/derek/Library/Android/sdk/emulator:/Users/derek/Library/Android/sdk/tools:/Users/derek/Library/Android/sdk/platform-tools:/Users/derek/.local/lib/python3.6/site-packages:/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/derek/.cargo/bin:/Users/derek/Library/Android/sdk/emulator:/Users/derek/Library/Android/sdk/tools:/Users/derek/Library/Android/sdk/platform-tools:/Users/derek/.local/lib/python3.6/site-packages:/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/derek/Github/gospace/bin:/Users/derek/Github/gospace/bin
+PROFILE: debug
+PS1: \u@\h \W\[\033[32m\]$(parse_git_branch)\[\033[00m\] $ 
+PWD: /Users/derek/Github/nascentcorp/telemetryx/minion-node/minion-server
+RUSTC: rustc
+RUSTDOC: rustdoc
+RUSTUP_HOME: /Users/derek/.rustup
+RUSTUP_TOOLCHAIN: stable-x86_64-apple-darwin
+RUST_RECURSION_COUNT: 1
+SHELL: /bin/bash
+SHLVL: 2
+SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.kXLI1w7uet/Listeners
+TARGET: x86_64-apple-darwin
+TERM: xterm-256color
+TERM_PROGRAM: vscode
+TERM_PROGRAM_VERSION: 1.30.2
+TMPDIR: /var/folders/xf/njvppcfd0zn4g_gc0270yzxr0000gn/T/
+USER: derek
+XPC_FLAGS: 0x0
+XPC_SERVICE_NAME: 0
+_: /Users/derek/.cargo/bin/cargo
+__CF_USER_TEXT_ENCODING: 0x1F5:0x0:0x0
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/aes-x86_64-macosx.o" "/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5/pregenerated/aes-x86_64-macosx.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/aesni-x86_64-macosx.o" "/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5/pregenerated/aesni-x86_64-macosx.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/vpaes-x86_64-macosx.o" "/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5/pregenerated/vpaes-x86_64-macosx.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/x86_64-mont-macosx.o" "/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5/pregenerated/x86_64-mont-macosx.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/x86_64-mont5-macosx.o" "/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5/pregenerated/x86_64-mont5-macosx.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/chacha-x86_64-macosx.o" "/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5/pregenerated/chacha-x86_64-macosx.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/p256-x86_64-asm-macosx.o" "/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5/pregenerated/p256-x86_64-asm-macosx.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/aesni-gcm-x86_64-macosx.o" "/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5/pregenerated/aesni-gcm-x86_64-macosx.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/ghash-x86_64-macosx.o" "/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5/pregenerated/ghash-x86_64-macosx.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/poly1305-x86_64-macosx.o" "/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5/pregenerated/poly1305-x86_64-macosx.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/sha512-x86_64-macosx.o" "/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5/pregenerated/sha512-x86_64-macosx.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/sha256-x86_64-macosx.o" "/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.13.5/pregenerated/sha256-x86_64-macosx.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/aes.o" "crypto/fipsmodule/aes/aes.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/exponentiation.o" "crypto/fipsmodule/bn/exponentiation.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/generic.o" "crypto/fipsmodule/bn/generic.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/montgomery.o" "crypto/fipsmodule/bn/montgomery.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/montgomery_inv.o" "crypto/fipsmodule/bn/montgomery_inv.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/shift.o" "crypto/fipsmodule/bn/shift.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/e_aes.o" "crypto/fipsmodule/cipher/e_aes.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/crypto.o" "crypto/crypto.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/ecp_nistz.o" "crypto/fipsmodule/ec/ecp_nistz.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/ecp_nistz256.o" "crypto/fipsmodule/ec/ecp_nistz256.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/gfp_p256.o" "crypto/fipsmodule/ec/gfp_p256.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/gfp_p384.o" "crypto/fipsmodule/ec/gfp_p384.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/limbs.o" "crypto/limbs/limbs.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/mem.o" "crypto/mem.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/gcm.o" "crypto/fipsmodule/modes/gcm.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/curve25519.o" "third_party/fiat/curve25519.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/cpu-intel.o" "crypto/cpu-intel.c"
+running: "ar" "crs" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/libring-core.a" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/aes-x86_64-macosx.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/aesni-x86_64-macosx.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/vpaes-x86_64-macosx.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/x86_64-mont-macosx.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/x86_64-mont5-macosx.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/chacha-x86_64-macosx.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/p256-x86_64-asm-macosx.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/aesni-gcm-x86_64-macosx.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/ghash-x86_64-macosx.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/poly1305-x86_64-macosx.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/sha512-x86_64-macosx.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/sha256-x86_64-macosx.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/aes.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/exponentiation.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/generic.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/montgomery.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/montgomery_inv.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/shift.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/e_aes.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/crypto.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/ecp_nistz.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/ecp_nistz256.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/gfp_p256.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/gfp_p384.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/limbs.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/mem.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/gcm.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/curve25519.o" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/cpu-intel.o"
+cargo:warning=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: /Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/libring-core.a(aes.o) has no symbols
+exit code: 0
+cargo:rustc-link-lib=static=ring-core
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "include" "-Wall" "-Wextra" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-gfull" "-D_XOPEN_SOURCE=700" "-c" "-o/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/constant_time_test.o" "crypto/constant_time_test.c"
+running: "ar" "crs" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/libring-test.a" "/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out/constant_time_test.o"
+exit code: 0
+cargo:rustc-link-lib=static=ring-test
+cargo:rustc-link-search=native=/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/build/ring-5ee73b7755ddfcef/out

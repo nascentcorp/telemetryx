@@ -1,0 +1,13 @@
+/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/deps/tokio_uds-6d0f1cbea18c6fe2.rmeta: /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/lib.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/datagram.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/frame.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/incoming.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/listener.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/recv_dgram.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/send_dgram.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/stream.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/ucred.rs
+
+/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/deps/tokio_uds-6d0f1cbea18c6fe2.d: /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/lib.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/datagram.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/frame.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/incoming.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/listener.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/recv_dgram.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/send_dgram.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/stream.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/ucred.rs
+
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/lib.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/datagram.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/frame.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/incoming.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/listener.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/recv_dgram.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/send_dgram.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/stream.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.5/src/ucred.rs:

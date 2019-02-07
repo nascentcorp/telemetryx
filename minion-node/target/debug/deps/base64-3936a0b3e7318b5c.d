@@ -1,0 +1,12 @@
+/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/deps/base64-3936a0b3e7318b5c.rmeta: /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/lib.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/chunked_encoder.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/display.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/tables.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/mod.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/encoder.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/encode.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/decode.rs
+
+/Users/derek/Github/nascentcorp/telemetryx/minion-node/target/debug/deps/base64-3936a0b3e7318b5c.d: /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/lib.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/chunked_encoder.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/display.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/tables.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/mod.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/encoder.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/encode.rs /Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/decode.rs
+
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/lib.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/chunked_encoder.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/display.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/tables.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/mod.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/encoder.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/encode.rs:
+/Users/derek/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/decode.rs:
