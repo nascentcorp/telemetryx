@@ -1,20 +1,21 @@
-import * as child from "child_process";
+import Docker from "dockerode";
+
+const docker = new Docker({socketPath: "/var/run/docker.sock"});
 
 function runDocker() {
-  const command = "docker run -it dronekit-env:latest";
-  // tslint:disable-next-line:no-console
-  console.log(`Attempting to run command {command}`, command);
-  const docker = child.exec(command);
-
-  // tslint:disable-next-line:no-console
-  console.log("exec finished");
-
-  // docker.stdout.pipe(process.stdout);
-
-  docker.stdout.on("data", (data) => {
-    // tslint:disable-next-line:no-console
-    process.send(`stdout: ${data}`);
-  });
+  /* const command = "docker run -it dronekit-env:latest"; */
+  docker.run("dronekit-env:latest", [], process.stdout)
+    .then((container) => {
+      // tslint:disable-next-line:no-console
+      console.log(container.output.StatusCode);
+      return container.remove();
+    }).then((data) => {
+      // tslint:disable-next-line:no-console
+      console.log("container removed");
+    }).catch((err) => {
+      // tslint:disable-next-line:no-console
+      console.log(err);
+    });
 
   return "success";
 }

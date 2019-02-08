@@ -18,10 +18,12 @@
   "author": "telemetry.io",
   "license": "ISC",
   "dependencies": {
+    "dockerode": "^2.5.8",
     "dotenv": "^6.2.0",
     "express": "4.16.4"
   },
   "devDependencies": {
+    "@types/dockerode": "^2.5.12",
     "@types/dotenv": "^6.1.0",
     "@types/express": "^4.16.1",
     "@types/fs-extra": "^5.0.4",
